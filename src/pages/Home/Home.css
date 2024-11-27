@@ -1,0 +1,45 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./wpp.png');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 250px;
+    margin: 20px;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .icon-container {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .iconUpload {
+    color: #ffffff; 
+  }
+  
+  .card-title {
+    font-size: 18px;
+    text-align: center;
+    color: #ffffff; 
+  }
+  
+
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.1); 
+  }
+  
